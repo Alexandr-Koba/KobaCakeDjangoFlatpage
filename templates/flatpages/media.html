@@ -1,11 +1,10 @@
-{% extends 'flatpages/media.html' %}
+{% extends 'flatpages/default.html' %}
 
 {% block title %}
-{{flatpage.title %}}
+{{ flatpage.title }}
 {% endblock title %}
 
 {% block content %}
-  <h3>Фото галерея наших десертов</h3>
+    <h3>Наши Десерты наглядно</h3>
 {{ flatpages.content }}
-{% endblock content %}
 {% endblock content %}
